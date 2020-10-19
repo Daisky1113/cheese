@@ -305,3 +305,58 @@ header .nav li + li{
 #access table th{
   width: 30%;
 }
+
+/* contact */
+#contact {}
+
+#contact p + p{
+  margin-top: 30px;
+}
+
+#contact table{
+  margin: 70px auto 30px;
+  border-top: 1px solid #bfbfbf;
+  border-bottom: 1px solid #bfbfbf;
+}
+#contact table tr{
+  display: flex;
+  align-items: center;
+}
+#contact table tr td:first-child{
+  width: 240px;
+  padding-left: 12px;
+  text-align: left;
+  align-items: center;
+}
+
+#contact table td:nth-child(2){
+  width: 400px;
+  padding-left: 12px;
+  border-left: 1px solid #bfbfbf;
+}
+#contact table tr + tr{
+  border-top: 1px solid #bfbfbf;
+}
+
+#contact table input[type="text"],
+#contact table select,
+#contact table textarea{
+  margin: 12px;
+  display: block;
+  width: 300px;
+  height: 20px;
+}
+
+#contact table textarea{
+  height: 100px;
+}
+
+#contact td ul{
+  margin: 24px 0;
+}
+#contact td ul li input{
+  margin-right: 12px;
+}
+#contact td ul li + li{
+  margin-top: 24px;
+}
