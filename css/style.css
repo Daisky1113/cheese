@@ -11,8 +11,8 @@ a{
   cursor: pointer;
 }
 
-h1,h2,h3,h4,p{
-  line-height: 1.6;
+h3,p{
+  line-height: 2;
   font-feature-settings: "palt" 1;
 }
 
@@ -220,4 +220,64 @@ header .nav li + li{
 #course .text-area h3{
   font-size: 18px;
   margin-bottom: 40px;
+}
+
+/* news */
+
+.card-area{
+  margin-bottom: 60px;
+}
+
+.card-area .card{
+  width: 330px;
+  transition: .3s;
+  border-radius: 3px;
+  
+  /* box-shadow    : 0 0 10px #eaeaea; */
+}
+.card-area .card:hover{
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+
+.card-area .card img{
+  width: 100%;
+  border-radius: 3px;
+  overflow: hidden;
+  height: auto;
+}
+.card-area .card .date{
+  margin-top: 30px;
+  margin-bottom: 24px;
+}
+
+.card-area .card + .card{
+  margin-left: 30px;
+}
+
+.card-area .card .text-area{
+  padding: 0 12px 12px;
+}
+
+#news button{
+  display: block;
+  width: 300px;
+  height: 60px;
+  margin: 0 auto 60px;
+  appearance: none;
+  border: 0;
+  border-radius: 5px;
+  background: #fff;
+  color: #ffd61a;
+  padding: 8px 16px;
+  font-size: 16px;
+  border: 1px solid #ffd61a;
+  outline: none;
+  cursor: pointer;
+  transition: .3s;
+}
+
+#news button:hover{
+  background: #ffd61a;
+  color: #fff;
+  
 }
