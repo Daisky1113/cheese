@@ -129,3 +129,32 @@ footer{
   padding: 30px 0;
 }
 
+
+/* ------------------
+  components
+  各エリアの中身を定義する
+------------------- */
+
+/* header */
+header .nav ul{
+  padding: 50px 0;
+}
+
+header .nav li + li{
+  margin-left: 50px;
+}
+
+/* main-visual */
+#main-visual{
+  height: 480px;
+  background:url('../img/mainbg.png') no-repeat center;
+}
+
+#main-visual h1{
+  font-size: 58px;
+  margin-bottom: 30px;
+}
+
+#main-visual p{
+  font-size: 24px;
+}
