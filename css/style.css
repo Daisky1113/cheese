@@ -1,0 +1,131 @@
+/* ここから下に記載していく */
+/* ------------------
+  default
+  reset.cssでリセットされないスタイルをリセットする
+------------------- */
+
+a{
+  text-decoration: none;
+  color: inherit;
+  font-size: inherit;
+  cursor: pointer;
+}
+
+div{
+  box-sizing: border-box;
+}
+
+/* ------------------
+  utils
+  汎用的なスタイルを定義する
+------------------- */
+
+/* spacing */
+.pb60{
+  padding-bottom: 60px;
+}
+
+.pb140{
+  padding-bottom: 140px;
+}
+
+/* typography */
+h1{
+  font-size: 18px;
+}
+p{
+  font-size: 16px;
+  color: #222;
+}
+.title{
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+.sub-title{
+  font-size: 18px;
+  margin-bottom: 60px;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.text-left{
+  text-align-last: left;
+}
+
+.text-rigth{
+  text-align: right;
+}
+
+.fw-b{
+  font-weight: bold;
+}
+
+/* color */
+.text-white{
+  color: #ffffff;
+}
+
+.bg-grey{
+  background-color: #fafafa;
+}
+
+.bg-yellow{
+  background-color: #ffd61a;
+}
+
+.yellow{
+  background-color: #ffd61a;
+}
+
+/* layout */
+.d-flex{
+  display: flex;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+.justify-sb{
+  justify-content: space-between;
+}
+
+.align-center{
+  align-items: center;
+}
+
+.m-a{
+  margin: 0 auto;
+}
+
+.m-l-a{
+  margin-left: auto;
+}
+
+.m-r-a{
+  margin-right: auto;
+}
+
+
+/* ------------------
+  layout
+  各エリアのレイアウトを定義する
+------------------- */
+
+#wrapper{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+header{}
+
+.section{
+  padding-top: 60px;
+}
+
+footer{
+  padding: 30px 0;
+}
+
