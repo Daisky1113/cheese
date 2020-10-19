@@ -11,6 +11,10 @@ a{
   cursor: pointer;
 }
 
+p{
+  line-height: 1.6;
+}
+
 div{
   box-sizing: border-box;
 }
@@ -65,6 +69,10 @@ p{
 /* color */
 .text-white{
   color: #ffffff;
+}
+
+.text-yellow{
+  color: #ffd61a;
 }
 
 .bg-grey{
@@ -157,4 +165,23 @@ header .nav li + li{
 
 #main-visual p{
   font-size: 24px;
+}
+
+/* about */
+
+#about p + p{
+  margin-top: 40px;
+}
+.photo-area{
+  margin-top: 80px;
+}
+.photo-area li{
+  width: 25%;
+}
+
+
+.photo-area li img{
+  display: block;
+  width: 100%;
+  height: auto;
 }
