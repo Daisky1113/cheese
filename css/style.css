@@ -30,7 +30,7 @@ div{
   padding-bottom: 60px;
 }
 
-.pb140{
+.pb40{
   padding-bottom: 140px;
 }
 
@@ -280,4 +280,28 @@ header .nav li + li{
   background: #ffd61a;
   color: #fff;
   
+}
+
+/* access */
+
+.map-area{
+  margin: 60px 0;
+}
+
+.map-area iframe{
+  width: 100%;
+  height: 300px;
+}
+
+#access table{
+  margin: 0 auto;
+  /* margin-bottom: 60px; */
+  text-align: left;
+}
+
+#access table tr{
+  height: 50px;
+}
+#access table th{
+  width: 30%;
 }
